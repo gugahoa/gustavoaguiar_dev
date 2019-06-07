@@ -10,7 +10,6 @@ taxonomies = { categories = ['reasonml', 'rust'], tags = ['reasonml', 'ocaml',
 [extra]
 author = 'Gustavo Aguiar'
 +++
-# Journey to Trait-like behaviour in ReasonML/OCaml
 ## Motivation
 I have been using ReasonML as a replacemente for JavaScript on the front-end development for my startup for quite sometime now. But with a powerful type-system, it makes me miss Rust type-system features.
 Right now, I don't know enought ReasonML/OCaml to truly let loose the way I mentally model the problems at hand, which have been spoiled by my time with Rust.
@@ -45,7 +44,7 @@ This library was quite to my liking as it generates the serializers and deserial
 But why doesn't it work for me? (It does, but I have a itch I want to scratch, so let's pretend it doesn't)  
 Because the API I'm aiming for is not something like `my_type_decode(json: Js.Json.t)` it's `decode_json(json: Js.Json.t) => 'a`
 
-### Implementation
+## Implementation
 After looking into libraries from the ecosystem and not finding anything quite like the itch I want to scratch, I started playing around with some implementations that could get me close to where I want, and start researching from there.
 
 #### Module Function (Functors)
