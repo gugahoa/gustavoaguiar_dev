@@ -102,7 +102,7 @@ module type Decodable = {
 
 Then, as we code our modules, if one should be Decodable, we only need to adhere it Decodable type signature, such as:
 
-```reson
+```reason
 module Unit = {
   type t = unit;
   let decode = _ => ();
