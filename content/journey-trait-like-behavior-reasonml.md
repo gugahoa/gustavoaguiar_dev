@@ -127,7 +127,7 @@ This function looks a lot like the one from Rust, except that it receives the Mo
 
 This boils down to how in ReasonML/OCaml you can have different implementations of a "type-class" for the same type, whereas in Rust you can't, so Rust can infer the type that implements the "type-class" (In this case, Trait).
 
-### Conclusion
+## Conclusion
 After all we couldn't get to our `decode_json(Js.Json.t) => 'a`, but we got quite close there with `decode_json((module Decodable with type t = 'a), Js.Json.t) => 'a`
 
 I'm quite happy with the result, as it got me more used to the flexibility of the type-system, helped me better understand how to model my problem to fit with this type-system and made me realize that the difference between Rust's type-system and OCaml's type-system is in the trade-offs, and both are equally powerful.
