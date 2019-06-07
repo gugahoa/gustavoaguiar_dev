@@ -1,3 +1,11 @@
+title = 'dev blog'
+description = 'documentation of my learnings'
+
+generate_rss = true
+
+# Theme
+theme = 'hikari'
+
 # The URL the site will be built for
 base_url = "https://gustavoaguiar.dev"
 
@@ -13,3 +21,9 @@ build_search_index = true
 
 [extra]
 # Put all your custom variables here
+author = 'Gustavo Aguiar'
+author_bio = ''
+twitter = 'gustavohoa'
+github = 'gugahoa'
+instagram = false
+enable_mathjax = false
