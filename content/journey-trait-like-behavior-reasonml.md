@@ -11,7 +11,7 @@ taxonomies = { categories = ['reasonml', 'rust'], tags = ['reasonml', 'ocaml',
 author = 'Gustavo Aguiar'
 +++
 ## Motivation
-I have been using ReasonML as a replacemente for JavaScript on the front-end development for my startup for quite sometime now. But with a powerful type-system, it makes me miss Rust type-system features.
+I have been using ReasonML as a replacemente for JavaScript on the front-end development for my startup for quite some time now. But with a powerful type-system, it makes me miss Rust type-system features.
 Right now, I don't know enought ReasonML/OCaml to truly let loose the way I mentally model the problems at hand, which have been spoiled by my time with Rust.
 
 This note is a documentation of my journey in trying to bridge the gap between my Rust knowledge and ReasonML/OCaml knowledge.
@@ -132,3 +132,9 @@ After all we couldn't get to our `decode_json(Js.Json.t) => 'a`, but we got quit
 I'm quite happy with the result, as it got me more used to the flexibility of the type-system, helped me better understand how to model my problem to fit with this type-system and made me realize that the difference between Rust's type-system and OCaml's type-system is in the trade-offs, and both are equally powerful.
 
 Thanks a lot to Pedro Castilho, who helped me throughout this journey! Without him, it would have taken me a lot more time to learn all this. Most of what you have seen here has been me trying to do something, bouncing the idea at him and him kindly explaining to me how we could arrive at the final result.++
+
+
+Edit: Thanks to Yawar Amin for replying with a great resource about modular
+implicits, which would enable the compiler to infer the correct module to pass
+as argument to the function. [First-Class Modules and Modular Implicits in
+OCaml](https://tycon.github.io/modular-implicits.html)
