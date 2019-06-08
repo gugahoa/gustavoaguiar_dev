@@ -131,7 +131,7 @@ After all we couldn't get to our `decode_json(Js.Json.t) => 'a`, but we got quit
 
 I'm quite happy with the result, as it got me more used to the flexibility of the type-system, helped me better understand how to model my problem to fit with this type-system and made me realize that the difference between Rust's type-system and OCaml's type-system is in the trade-offs, and both are equally powerful.
 
-Thanks a lot to Pedro Castilho, who helped me throughout this journey! Without him, it would have taken me a lot more time to learn all this. Most of what you have seen here has been me trying to do something, bouncing the idea at him and him kindly explaining to me how we could arrive at the final result.++
+Thanks a lot to Pedro Castilho, who helped me throughout this journey! Without him, it would have taken me a lot more time to learn all this. Most of what you have seen here has been me trying to do something, bouncing the idea at him and him kindly explaining to me how we could arrive at the final result.
 
 
 Edit: Thanks to Yawar Amin for replying with a great resource about modular
