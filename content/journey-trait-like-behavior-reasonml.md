@@ -12,7 +12,7 @@ author = 'Gustavo Aguiar'
 +++
 ## Motivation
 I have been using ReasonML as a replacemente for JavaScript on the front-end development for my startup for quite some time now. But with a powerful type-system, it makes me miss Rust type-system features.
-Right now, I don't know enought ReasonML/OCaml to truly let loose the way I mentally model the problems at hand, which have been spoiled by my time with Rust.
+Right now, I don't know enough ReasonML/OCaml to truly let loose the way I mentally model the problems at hand, which have been spoiled by my time with Rust.
 
 This note is a documentation of my journey in trying to bridge the gap between my Rust knowledge and ReasonML/OCaml knowledge.
 
@@ -48,7 +48,8 @@ Because the API I'm aiming for is not something like `my_type_decode(Js.Json.t) 
 After looking into libraries from the ecosystem and not finding anything quite like the itch I want to scratch, I started playing around with some implementations that could get me close to where I want, and start researching from there.
 
 #### Module Function (Functors)
-This was the first thing that came to mind, as it was mentioned in the ReasonML documentation. Altought in the doc, it says that you can't pass Modules to functions, which made it quite hard to arrive at the second implementation that is exactly that.
+This was the first thing that came to mind, as it was mentioned in the ReasonML
+documentation. Although in the doc, it says that you can't pass Modules to functions, which made it quite hard to arrive at the second implementation that is exactly that.
 
 Functors works by receiving a Module and returning another Module.
 
