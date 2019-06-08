@@ -99,7 +99,7 @@ module type Decodable = {
 };
 ```
 
-Then, as we code our modules, if one should be Decodable, we only need to adhere it Decodable type signature, such as:
+Then, as we code our modules, if one should be Decodable, we only need to adhere to the Decodable type signature, such as:
 
 ```reason
 module Unit = {
@@ -138,3 +138,5 @@ Edit: Thanks to Yawar Amin for replying with a great resource about modular
 implicits, which would enable the compiler to infer the correct module to pass
 as argument to the function. [First-Class Modules and Modular Implicits in
 OCaml](https://tycon.github.io/modular-implicits.html)
+Edit 2: Thanks to Cem for pointing out another great (de)serialization library:
+[Automatic, well-typed JSON serialization in Reason/OCaml with Milk](https://jaredforsyth.com/posts/announcing-milk/)
