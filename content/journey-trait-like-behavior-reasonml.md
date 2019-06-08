@@ -11,7 +11,7 @@ taxonomies = { categories = ['reasonml', 'rust'], tags = ['reasonml', 'ocaml',
 author = 'Gustavo Aguiar'
 +++
 ## Motivation
-I have been using ReasonML as a replacemente for JavaScript on the front-end development for my startup for quite some time now. But with a powerful type-system, it makes me miss Rust type-system features.
+I have been using ReasonML as a replacement for JavaScript on the front-end development for my startup for quite some time now. But with a powerful type-system, it makes me miss Rust type-system features.
 Right now, I don't know enough ReasonML/OCaml to truly let loose the way I mentally model the problems at hand, which have been spoiled by my time with Rust.
 
 This note is a documentation of my journey in trying to bridge the gap between my Rust knowledge and ReasonML/OCaml knowledge.
