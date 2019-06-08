@@ -42,7 +42,7 @@ From this I found two libraries worth mentioning: `bs-json` and `ppx_decco`, wit
 `ppx_decco` description is as follow: "Bucklescript PPX which generates JSON serializers and deserializers for user-defined types."  
 This library was quite to my liking as it generates the serializers and deserializers for you, has great expressibility to map the JSON to your type, and the generated functions have a simple API.  
 But why doesn't it work for me? (It does, but I have a itch I want to scratch, so let's pretend it doesn't)  
-Because the API I'm aiming for is not something like `my_type_decode(json: Js.Json.t)` it's `decode_json(json: Js.Json.t) => 'a`
+Because the API I'm aiming for is not something like `my_type_decode(Js.Json.t) => my_type` it's `decode_json(Js.Json.t) => 'a`
 
 ## Implementation
 After looking into libraries from the ecosystem and not finding anything quite like the itch I want to scratch, I started playing around with some implementations that could get me close to where I want, and start researching from there.
