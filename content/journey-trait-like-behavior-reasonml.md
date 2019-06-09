@@ -1,15 +1,4 @@
 +++
-<!-- vim-markdown-toc GFM -->
-
-* [Motivation](#motivation)
-* [Where I want to get](#where-i-want-to-get)
-* [Prep work](#prep-work)
-* [Implementation](#implementation)
-    * [Module Function (Functors)](#module-function-functors)
-    * [Modules as first-class arguments in functions](#modules-as-first-class-arguments-in-functions)
-* [Conclusion](#conclusion)
-
-<!-- vim-markdown-toc -->
 date = 2019-06-07
 title = 'Journey to Trait-like behaviour in ReasonML/OCaml'
 tags = ['rust', 'reasonml']
